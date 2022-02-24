@@ -11,4 +11,4 @@ If you are looking to get authenticated please check out the quick guide!
 
 Feel free to make issues and or changes to addon to the documents for new or hidden API's I may have missed!
 
-Will be adding documentation on Hcaptcha and Talin procedures..
+Will be adding documentation on Hcaptcha and Talon procedures..
