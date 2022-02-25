@@ -12,4 +12,4 @@ If you are looking to get authenticated please check out the quick guide!
 
 Feel free to make issues and or changes to addon to the documents for new or hidden API's I may have missed!
 
-This is not is anyway affiliated with Epic Games Inc. and is just a example on the epic API's for the Epic Online Services.
+This is not in anyway affiliated with Epic Games Inc. and is just a example on the Epic's endpoints for the Epic Online Services.
