@@ -13,7 +13,7 @@ When the game client is launched, it will make a request to the Epic token endpo
 
 The game client will include the access token on all requests to Epic services. The access token can also be passed to trusted game servers for verification, or for use in service-to-service requests.
 
-When applicable, a refresh token will also be included in the token response. The game client will need to use the refresh token if the access token expires. This typically occurs within 2 hours after the access token is issues.
+When applicable, a refresh token will also be included in the token response. The game client will need to use the refresh token if the access token expires. This typically occurs within 2 hours after the access token is issued.
 
 ## Web Server Applications
 
