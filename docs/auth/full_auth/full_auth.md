@@ -33,7 +33,7 @@ Once the client has the necessary information to request a token (including the 
 
 To request an access token, the client must make an HTTP request to the Epic token endpoint, passing the client credentials (Client ID and Secret) and user credentials.
 
-The Epic token endpoint is https://api.epicgames.dev/epic/oauth/v1/token
+The Epic token endpoint is ``https://api.epicgames.dev/epic/oauth/v1/token``
 
 The client credentials will be passed in the Authorization header using Basic authorization. This endpoint supports the following post parameters:
 
