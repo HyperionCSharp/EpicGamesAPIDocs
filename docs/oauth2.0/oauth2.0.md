@@ -42,4 +42,26 @@ Abstract Protocol Flow ^
 
 - (D): The authorization server authenticates the client and validates the authorization grant, and if valid, issues an access token.
 
-MORE TO COME SOON AS IM STILL LEARNING OAUTH 2.0 FLOWS!!
+- (E): The client requests the protected resource from the resource server and authenticates by presenting the access token.
+
+- (F): The resource server validates the access token, and if valid, serves the request.
+
+## Authorization Grant
+
+An authorization grant is a credential repersenting the resource owner's authorization (to access its protected resources) used by the client to obtain an access token. This specification defines four grant types:
+- `authorization code`
+- `implicit`
+- `resource owner credentials`
+- `client credentials`
+
+as well as an extensibility mechanism for defining additional types.
+
+## Authorization Code
+
+The authorization code is obtained by using an authorization server as an intermediary between the client and the resource owner. Instead of requesting authorization directly from the resource owner, the client directs the resource owner to an authorization server (via its user-agent), which in turn directs the resource owner back to the client with the authorization code.
+
+Before directing the resource owner back to the client with the authorization code, the authorization server authenticates the resource owner and obtains authorization. Because the resource owner only authenticates with the authorization server, the resource owner's credentials are never shared with the client.
+
+The authorization code provides a few important security benefits, such as the ability to authenticate the client, as well as the transmission of the access token directly to the client without passing it through the resource owner's user-agent and potentially exposing it to others, including the resource owner.
+
+MORE TO COME STILL LEARNING OAUTH 2.0 FLOWS!!!
