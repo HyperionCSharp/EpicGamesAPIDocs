@@ -23,4 +23,8 @@ When we plug everything we just did into this one API we should end up with the 
 
 If you get the generated_pass_UUID than congrats you have solved hcaptcha nad fucked Epic Games at the same time :0
 
-Hope this was helpful :)
+# 2nd Method (solving)
+This method will solve hcaptcha but is not a bypass. This takes the task keys and image urls and checks them and solves and in return gets the true : false ids.
+
+TO LEARN MORE ON THE SECOND METHOD CLICK BELOW LINK
+[Check_Captcha](https://github.com/HyperionCSharp/EpicGamesAPIDocs/blob/main/docs/hcaptcha/endpoints/check_captcha.md)
