@@ -1,0 +1,10 @@
+# About The Hcaptcha Flow In Epic Games
+Epic Games started to use `Hcaptcha` in early 2021 while leaving `Arkose Labs`. Since then hackers have started to attack at hcaptcha's security aka the API's using `Brute Force`, `Credential Stuffing`, and `Bypassing`. Hcaptcha is a AI automated system which learns from hackers and changes almost daily, with being one step ahead of the hackers. In this directory I will update on bypass methods and solving methods of Hcaptcha and how to deliver blows to `CloudFlare ddos protection` which utilizes hcaptcha as bot protection.
+
+## Important Files (public)
+Hcaptcha utilizes `JavaScript`, and `TypeScript` to make and encode certain methods of captcha solving and challenge passing. Here are some files that can be publicly accessed and viewed:
+
+- `https://js.hcaptcha.com/1/api.js?onload=hCaptchaLoaded&render=explicit`: This ts files renders the captcha challenge once payload for login has been detected by tracking ID's.
+- `https://newassets.hcaptcha.com/captcha/v1/cf234db/hcaptcha-challenge.js`: This ts file reads and constructs new challenge images for the layout of challenges fired.
+- `https://newassets.hcaptcha.com/c/0d3295f3/hsw.js`: Probably one of the most important ts files utilized in the hcaptcha request, this creates the captcha token that is needed with the final P0 encoded token. It uses a set of characters and numbers to randomly generate the needed code with all tokens begining with `ey`.
+- `https://newassets.hcaptcha.com/captcha/challenge/image_label_binary/cf234db/challenge.js`: Challenge.js is where the finalized captcha token is generated and than checked using the `https://hcaptcha.com/checkcaptcha` API which will check to make sure all ID's(captcha challenge answers) are correct and will than procced to generate the login captcha token.
