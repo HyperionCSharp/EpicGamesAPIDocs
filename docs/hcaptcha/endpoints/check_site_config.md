@@ -4,7 +4,7 @@ If we want to solve hcaptcha we have to gather the needed data to repersent the 
 ## Request
 | URL | Method |
 | - | - |
-| https://hcaptcha.com/checksiteconfig?v=cf234db&host=www.epicgames.com&sitekey=91e4137f-95af-4bc9-97af-cdcedce21c8c&sc=1&swa=1 | `GET` |
+| https://hcaptcha.com/checksiteconfig?v=a384235&host=www.epicgames.com&sitekey=91e4137f-95af-4bc9-97af-cdcedce21c8c&sc=1&swa=1 | `GET` |
 
 ## Query Parameters
 - `v`: the static version of the hcaptcha config
