@@ -2,7 +2,7 @@
 Research about Epic's non-documented API. Documentation can be found within the _*docs*_ folder.
 Also holds information on Talon and HCaptcha API's!
 
-Join the disc: https://discord.gg/G4nPF27CsN
+Disord is down will be up soon!
 
 Want something documented? Open an issue and specify what you would like added and I'll try to get it added.
 If you already have something documented and would like it added to the repo, feel free to open a pull request.
