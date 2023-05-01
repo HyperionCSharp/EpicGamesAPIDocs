@@ -7,7 +7,7 @@ To verify the answers of the made captcha E0(response token) and to identify the
 
 ```json
 {
-  "v": "93a89cc",
+  "v": "a384235",
   "job_mode": "image_label_binary",
   "answers": {
     "95f126e3-fd9d-4ce2-b8ac-3b867a178070": "false",

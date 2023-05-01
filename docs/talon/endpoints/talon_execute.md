@@ -33,7 +33,7 @@ After gathering the session data from [talon_init](https://github.com/HyperionCS
   "v": 1,
   "xal": "",
   "ewa": "b",
-  "kid": "avp91q"
+  "kid": "p98hck"
 }
 ```
 
