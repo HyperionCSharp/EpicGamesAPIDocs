@@ -2,7 +2,11 @@
 Research about Epic's non-documented API. Documentation can be found within the _*docs*_ folder.
 Also holds information on Talon and HCaptcha API's!
 
-**BIG UPDATE COMING WITH CAPTCHA SOLVER API**
+**BIG UPDATE**
+
+**I am now making a fortnite login checker via the direct api i am looking for a partner who is willing to be
+online everyday, puts in effort, good with customer support. You will apply through a link i will post on here soon.
+I am looking for 1 co owner, 2 staff, and a support member.**
 
 Want something documented? Open an issue and specify what you would like added and I'll try to get it added.
 If you already have something documented and would like it added to the repo, feel free to open a pull request.
