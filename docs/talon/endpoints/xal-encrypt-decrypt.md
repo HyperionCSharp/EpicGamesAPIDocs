@@ -45,4 +45,16 @@ def hex_to_string(hex):
 ```
 
 ## Xal Encrypt
-COMING SOON
+```PY
+def xal_encrypt(text):
+    global _0x103e4a, _0x1ea42a, new_0x4a9181
+    _0x1ea42a = ''
+    _0x103e4a = 0
+    _0x13002f = "\u00030é\u00087°\u0094\u000e-3x\u009dûËfîâÀ\u000eZâ©\u0004\u009cSÑä`\u0088\u009cÁ'"
+    new_0x4a9181 = ''
+    for char in text:
+        xxx = ord(char) ^ ord(_0x13002f[_0x103e4a % len(_0x13002f)])
+        new_0x4a9181 += hex(xxx)[2:].zfill(2)
+        _0x103e4a += 1
+    return new_0x4a9181
+```
