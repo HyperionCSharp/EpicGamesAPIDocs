@@ -4,6 +4,8 @@ Also holds information on Talon and HCaptcha API's!
 
 **BIG UPDATE**
 
+I DO NOT USE DISCORD OR TELEGRAM ANYMORE CONTACT ME VIA GMAIL CHAT.
+
 **I am now making a fortnite login checker via the direct api i am looking for a partner who is willing to be
 online everyday, puts in effort, good with customer support. You will apply through a link i will post on here soon.
 I am looking for 1 co owner, 2 staff, and a support member.**
