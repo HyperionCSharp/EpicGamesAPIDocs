@@ -12,3 +12,10 @@ However, this grant type has been deprecated on all public clients.
   - `grant_type`: password
   - `username`: (email address of account)
   - `password`: (password of account)
+
+## Bypass Method
+The password grant type will only work if the correct secret and key are passed in base64.
+We must have the external authentication key to read/write/create data passed from Epic's server.
+
+I will provide the secret auth token that can read/write account data.
+I suspect this will be patched once posted so im making a bypass method.
