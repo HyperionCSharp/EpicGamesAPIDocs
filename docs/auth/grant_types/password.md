@@ -19,3 +19,10 @@ We must have the external authentication key to read/write/create data passed fr
 
 I will provide the secret auth token that can read/write account data.
 I suspect this will be patched once posted so im making a bypass method.
+
+  Params:
+  - `grant_type`: password
+  - `username`: (email address of target account)
+  - `password`: (password of target account)
+  - `authorization`: (base64 token)
+  - `limit`: 0 (stops rate limiting on api calls)
