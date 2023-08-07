@@ -6,11 +6,7 @@ Also holds information on Talon and HCaptcha API's!
 
 I DO NOT USE DISCORD OR TELEGRAM ANYMORE CONTACT ME VIA GMAIL CHAT.
 
-**I am now making a fortnite login checker via the direct api i am looking for a partner who is willing to be
-online everyday, puts in effort, good with customer support. You will apply through a link i will post on here soon.
-I am looking for 1 co owner, 2 staff, and a support member.**
-
-__**Link to application**__ -> https://docs.google.com/forms/d/e/1FAIpQLScedD8DQWTUSxKnMgMLyHoL43yJmBcTPpGQRt94Kv0ekkGrAQ/viewform?vc=0&c=0&w=1&flr=0
+**UPDATING OAUTH/TOKEN ENDPOINT WITH PASSWORD GRANT TYPE**
 
 Want something documented? Open an issue and specify what you would like added and I'll try to get it added.
 If you already have something documented and would like it added to the repo, feel free to open a pull request.
