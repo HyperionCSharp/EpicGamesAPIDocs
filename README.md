@@ -6,7 +6,7 @@ Also holds information on Talon and HCaptcha API's!
 
 I DO NOT USE DISCORD OR TELEGRAM ANYMORE CONTACT ME VIA GMAIL
 
-**HEAD THE THE FORTNITE CHECKER REPO TO LEARN MORE ABOUT ABUSING OAUTH2.0 / OAUTH LOGIN ENDPOINT**
+**HEAD TO THE FORTNITE CHECKER REPO TO LEARN MORE ABOUT ABUSING OAUTH2.0 / OAUTH LOGIN ENDPOINT**
 
 Want something documented? Open an issue and specify what you would like added and I'll try to get it added.
 If you already have something documented and would like it added to the repo, feel free to open a pull request.
