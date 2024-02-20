@@ -4,9 +4,9 @@ Also holds information on Talon and HCaptcha API's!
 
 **BIG UPDATE**
 
-I DO NOT USE DISCORD OR TELEGRAM ANYMORE CONTACT ME VIA GMAIL CHAT.
+I DO NOT USE DISCORD OR TELEGRAM ANYMORE CONTACT ME VIA GMAIL
 
-**UPDATING OAUTH/TOKEN ENDPOINT WITH PASSWORD GRANT TYPE**
+**HEAD THE THE FORTNITE CHECKER REPO TO LEARN MORE ABOUT ABUSING OAUTH2.0 / OAUTH LOGIN ENDPOINT**
 
 Want something documented? Open an issue and specify what you would like added and I'll try to get it added.
 If you already have something documented and would like it added to the repo, feel free to open a pull request.
