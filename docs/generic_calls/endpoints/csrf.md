@@ -1,10 +1,10 @@
 # CSRF / XSRF Token
-CSRF stands for Cross Site Request Forgery, this API allows us to generate a special token to bypass the CSRF policys. The token can be found in the cookies of the response.
+CSRF stands for Cross Site Request Forgery, this API allows us to generate a special token to bypass the CSRF policys. The token can be found in the cookies of the response. *The old CSRF endpoint is now forbidden and wont show the needed cookies.*
 
 ## Request
 | URL | Method |
 | - | - |
-| https://www.epicgames.com/id/api/csrf | `GET` |
+| https://www.twinmotion.com/id/api/sso?sid=a4fe5b24e8e5403f9607715435a8570e&next=fortnite | `GET` |
 
 # Cookies
 - `XSRF-TOKEN`: This is the main csrf token that can be used to bypass CSRF policys on the Epic Games Service's
