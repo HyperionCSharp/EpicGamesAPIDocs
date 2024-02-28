@@ -1,6 +1,8 @@
 # Talon Execute Request
 After gathering the session data from [talon_init](https://github.com/HyperionCSharp/EpicGamesAPIDocs/blob/main/docs/talon/endpoints/talon_init.md), we will now ask the server to send us the needed talon data to solve the `HSW` side of the captcha!
 
+*Updated 02/28/24*
+
 ## Request
 | URL | Method |
 | - | - |
@@ -47,11 +49,11 @@ After gathering the session data from [talon_init](https://github.com/HyperionCS
 ```
 
 ## Payload
-- `xal`: the xal is a randomly generated bunch of numbers / letters that make up the talon procedures!
-- `signature`: the signature is the session identifier so Epic can find what is hcaptcha and what is talon in responses!
-- `site_key`: the site key is issued by hcaptcha and is static and wont change unless ofc Epic decides to update!
-- `id`: the ID is the hcaptcha identifier, this tells hcaptcha what images or prodecures to load during captcha challenges!
-- `sdk_base_url`: the base url holds all the important JavaScript code to run hcaptcha checkboxes, challenge boxes, etc...!
-- `timestamp`: this is the current day, month, year, base time!
+- `xal`: XAL (Cross-Account Lien) identifier.
+- `signature`: Signature for the session.
+- `site_key`: Site key for hCaptcha.
+- `id`: Unique identifier for the session.
+- `sdk_base_url`: Base URL for the hCaptcha SDK.
+- `timestamp`: Timestamp of the session.
 
 Want to continue with sloving the captcha goto [solved_hcaptcha]()

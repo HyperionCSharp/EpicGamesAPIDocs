@@ -1,17 +1,25 @@
 # Check Site Config Request
 If we want to solve hcaptcha we have to gather the needed data to repersent the captcha token!
 
+*Updated 02/28/24*
+
 ## Request
 | URL | Method |
 | - | - |
-| https://hcaptcha.com/checksiteconfig?v=a384235&host=www.epicgames.com&sitekey=91e4137f-95af-4bc9-97af-cdcedce21c8c&sc=1&swa=1 | `GET` |
+| https://api2.hcaptcha.com/checksiteconfig?v=fadb9c6&host=www.epicgames.com&sitekey=5928de2d-2800-4c58-be91-060e5a6aa117&sc=1&swa=1&spst=1 | `POST` |
 
 ## Query Parameters
-- `v`: the static version of the hcaptcha config
-- `host`: www.epicgames.com
-- `sitekey`: Epic Games's site key from hcaptcha which is static
-- `sc`: the static call version
-- `swa`: the static JS file version
+- `v`: This could be a version identifier or a unique identifier for the request.
+- `host`: This specifies the host or domain for which the configuration is being checked, in this case, *www.epicgames.com*.
+- `sitekey`: This is likely the site key associated with the hCaptcha service for the specified website (www.epicgames.com)
+- `sc`: This could be a parameter indicating some form of "site configuration" check.
+- `swa`: This might indicate a check for "single-word answers" or something similar.
+- `spst`: This could be related to "spam prevention" or a similar feature.
+
+Hcaptcha updated API to `POST` it will now need all query params to be sent in order for it to return token. **HSW TOKEN HAS NOT CHANGED SINCE UPDATE**
+
+Example of post payload:
+```v=fadb9c6&host=www.epicgames.com&sitekey=91e4137f-95af-4bc9-97af-cdcedce21c8c&sc=1&swa=1&spst=1```
 
 ## Response
 ```json
