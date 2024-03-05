@@ -1,7 +1,7 @@
 # CSRF / XSRF Token
 CSRF stands for Cross Site Request Forgery, this API allows us to generate a special token to bypass the CSRF policys. The token can be found in the cookies of the response. *The old CSRF endpoint is now forbidden and wont show the needed cookies.*
 
-*Updated 03/05/24
+*Updated 03/05/24*
 The **SID=** is the sessionID and does not need to change in order to receive new csrf tokens for now.
 
 ## Request
