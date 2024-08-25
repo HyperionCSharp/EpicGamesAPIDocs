@@ -1,10 +1,28 @@
-# About The Hcaptcha Flow In Epic Games
-Epic Games started to use `Hcaptcha` in early 2021 while leaving `Arkose Labs`. Since then hackers have started to attack at hcaptcha's security aka the API's using `Brute Force`, `Credential Stuffing`, and `Bypassing`. Hcaptcha is a AI automated system which learns from hackers and changes almost daily, with being one step ahead of the hackers. In this directory I will update on bypass methods and solving methods of Hcaptcha and how to deliver blows to `CloudFlare ddos protection` which utilizes hcaptcha as bot protection.
+# About the hCaptcha Flow in Epic Games
 
-## Important Files (public)
-Hcaptcha utilizes `JavaScript`, and `TypeScript` to make and encode certain methods of captcha solving and challenge passing. Here are some files that can be publicly accessed and viewed:
+Epic Games transitioned from using Arkose Labs to `hCaptcha` in early 2021, in response to increasing security threats such as `Brute Force`, `Credential Stuffing`, and various `Bypassing` techniques. hCaptcha employs an AI-driven approach that evolves constantly to counter these threats, adapting its challenges and verification methods to stay ahead of malicious actors. This directory provides insights into bypass methods, solving techniques, and interactions with `Cloudflare DDoS protection`, which relies on hCaptcha for bot mitigation.
 
-- `https://js.hcaptcha.com/1/api.js?onload=hCaptchaLoaded&render=explicit`: This ts files renders the captcha challenge once payload for login has been detected by tracking ID's.
-- `https://newassets.hcaptcha.com/captcha/v1/cf234db/hcaptcha-challenge.js`: This ts file reads and constructs new challenge images for the layout of challenges fired.
-- `https://newassets.hcaptcha.com/c/0d3295f3/hsw.js`: Probably one of the most important ts files utilized in the hcaptcha request, this creates the captcha token that is needed with the final P0 encoded token. It uses a set of characters and numbers to randomly generate the needed code with all tokens begining with `ey`.
-- `https://newassets.hcaptcha.com/captcha/challenge/image_label_binary/cf234db/challenge.js`: Challenge.js is where the finalized captcha token is generated and than checked using the `https://hcaptcha.com/checkcaptcha` API which will check to make sure all ID's(captcha challenge answers) are correct and will than procced to generate the login captcha token.
+## Key Public Files
+
+hCaptcha uses `JavaScript` and `TypeScript` to encode and execute captcha challenges. The following files are crucial to its operation:
+
+- **[api.js](https://js.hcaptcha.com/1/api.js?onload=hCaptchaLoaded&render=explicit)**: Renders the captcha challenge upon detecting a login payload by tracking specific IDs.
+- **[hcaptcha-challenge.js](https://newassets.hcaptcha.com/captcha/v1/cf234db/hcaptcha-challenge.js)**: Constructs new challenge images, dynamically updating the challenge layout.
+- **[hsw.js](https://newassets.hcaptcha.com/c/0d3295f3/hsw.js)**: Critical for generating the captcha token, this file uses a complex set of characters and numbers to create tokens, all starting with `ey`. The final P0 encoded token is produced here.
+- **[challenge.js](https://newassets.hcaptcha.com/captcha/challenge/image_label_binary/cf234db/challenge.js)**: Finalizes the captcha token and verifies it via the `https://hcaptcha.com/checkcaptcha` API, ensuring all challenge IDs are correct before generating the login captcha token.
+
+## Detailed Analysis
+
+### **hCaptcha AI Mechanisms**
+hCaptcha's AI continuously learns from detected attack patterns, refining its challenges to thwart automated attempts. This constant evolution is pivotal in maintaining robust security against increasingly sophisticated threats.
+
+### **Bypassing Techniques**
+This section explores known bypass methods, providing an ongoing analysis of their effectiveness against hCaptcha’s evolving defenses. Techniques are dissected to understand how they exploit hCaptcha’s security, with countermeasures proposed.
+
+### **Interaction with Cloudflare DDoS Protection**
+hCaptcha is tightly integrated with Cloudflare's DDoS protection framework, acting as a frontline defense against bots. Understanding this interaction is key to both reinforcing security and exploring potential vulnerabilities in the flow.
+
+## Future Updates
+
+This documentation will be regularly updated to reflect the latest developments in hCaptcha’s technology, emerging threats, and new bypass methods. Contributions and insights from the community are welcome to keep this repository at the forefront of security research.
+
